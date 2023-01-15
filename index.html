@@ -168,23 +168,26 @@ economics. I am currently doing research on central bank digital currencies. Fur
         <div class="u-border-2 u-border-grey-30 u-line u-line-horizontal u-line-1"></div>
         <p class="u-text u-text-3">
           <span style="font-weight: 700;">
-            Central Bank Digital Currency in a L2 Rollup Design  <br>
+            Issuing a Central Bank Digital Currency in a Layer-2 Rollup Design, with Aleksander Berentsen and Jeremias Lenzi  <br>
 	  </span>
         </p>
-        <p class="u-align-left u-text u-text-4"> This paper discusses how a central bank digital currency (CBDC) could be issued on a blockchain by 
-		simultaneously keeping maximal autonomy. If decentralized finance (DEFI) gained in market share in the future, central banks should consider 
-		whether a direct access from DEFI applications to public money could be beneficial or not. In this context, we propose and describe a technical 
-		solution of a CBDC that is issued on a layer 2 rollup and discuss the advantages that come with choosing this design option. </p> 
+        <p class="u-align-left u-text u-text-4"> This paper discusses how a central bank digital currency (CBDC) could be issued on the blockchain
+		by simultaneously keeping maximal autonomy. The design we propose is a layer-2 rollup architecture. Issuing a CBDC directly
+		on a blockchain comes with many disadvantages, mainly because it needs to follow the rules of the network. 
+		Instead, in a rollup design, a central bank can define many parameters itself but still provides a direct link between public
+		money and a blockchain network. This could be useful if decentralized finance (DeFi) applications gained in market share in the future. </p> 
 	 <p class="u-text u-text-3">
           <span style="font-weight: 700;">
-            Zero-Knowledge Proofs and their Use Case in Economics  <br>
+            An Introduction to Zero-Knowledge Proofs in Blockchains and Economics  <br>
 	  </span>
         </p>
-        <p class="u-align-left u-text u-text-4"> If you follow the crypto space these days, you almost certainly have heard of zero-knowledge proofs (ZKP). There 
-		are many applications in two main areas: privacy and efficiency. Furthermore, ZKPs are not only useful in the blockchain space, but could also be used 
-		in many other areas. However, the term remains cryptic to many people without a computational background. Hence, in this review article, we shed light 
-		on what ZKPs are and describe their applications in the blockchain space and in general. Moreover, we provide supplementary material in which we go 
-		through the math of a very simple zk-proof and provide an accompanying Python script. </p>     
+        <p class="u-align-left u-text u-text-4"> With a zero-knowledge proof (ZKP) a party can prove that a statement is true without revealing 
+		any information except for whether it is indeed true or not. The obvious benefit is privacy since the prover does not need to 
+		reveal any additional information. The second benefit of ZKP technology is that it can significantly reduce the cost of verifying 
+		the correctness of a statement. ZKPs are increasingly adopted in blockchain applications where privacy and efficiency still have a lot
+		of room for improvement. It is expected that ZKP technology becomes ubiquitous in many other areas as well. However, the term remains 
+		cryptic to many people without a computer science background. In this review article, we shed light on what ZKPs are, how they improve 
+		privacy and efficiency, and describe applications for blockchains and other use cases. </p>     
 	 <p class="u-text u-text-3">
           <span style="font-weight: 700;">
             Central Bank Digital Currency: Market Power vs. Leverage Constraints  <br>
@@ -194,12 +197,33 @@ economics. I am currently doing research on central bank digital currencies. Fur
         <h4 class="u-align-justify u-text u-text-8">Other work<br>
         </h4>
         <div class="u-border-2 u-border-grey-30 u-line u-line-horizontal u-line-3"></div>
-        <p class="u-align-justify u-text u-text-9">
+	      
+	<p class="u-align-justify u-text u-text-9">
           <span style="font-weight: 700;">
-            <a href="https://github.com/remonyffenegger/Resources/blob/main/Scaling_Bitcoin.pdf" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" target="_blank">Scaling Bitcoin</a> (Master's Thesis, 2018)<br>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4308637" 
+	       class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" 
+	       target="_blank">A Walk-through of a Simple Zk-STARK Proof</a>, with Aleksander Berentsen and Jeremias Lenzi<br>
           </span>
         </p>
-        <p class="u-align-left u-text u-text-10"> In our paper, we aim to give a detailed insight into the Bitcoin scaling debate and discuss some of the most relevant proposals. If Bitcoin shall become a widespread method of payment, the basic protocol introduced by Satoshi Nakamoto in 2008 has to be enhanced with new technical concepts. We focus on a blocksize increase, Segwit, payment channels and the corresponding payment channel networks. These topics are by far not the only concepts that aim to improve Bitcoin's scalability. To our knowledge, however, they are the most advanced ones which have played a dominant role in the scaling debate.</p>
+	<p class="u-align-left u-text u-text-10"> This article serves as an extension to the introductory article on zero-knowledge proofs (ZKP) 
+		by Berentsen, Lenzi and Nyffenegger (2022). We provide one specific example of a zk-STARK and discuss all mathematical steps needed. 
+		The goal is to make the example accessible and intuitive. Furthermore, this article comes with an accompanying Python 
+		<a href="https://github.com/remonyffenegger/stark-tutorial" 
+		   class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" 
+		   target="_blank">notebook</a> (Master's Thesis, 2018)	
+		that will let the reader execute a numerical example provided in the article.</p>      
+        <p class="u-align-justify u-text u-text-9">
+          <span style="font-weight: 700;">
+            <a href="https://github.com/remonyffenegger/Resources/blob/main/Scaling_Bitcoin.pdf" 
+	       class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" 
+	       target="_blank">Scaling Bitcoin</a> (Master's Thesis, 2018)<br>
+          </span>
+        </p>
+        <p class="u-align-left u-text u-text-10"> In our paper, we aim to give a detailed insight into the Bitcoin scaling debate and discuss 
+		some of the most relevant proposals. If Bitcoin shall become a widespread method of payment, the basic protocol introduced by 
+		Satoshi Nakamoto in 2008 has to be enhanced with new technical concepts. We focus on a blocksize increase, Segwit, payment channels 
+		and the corresponding payment channel networks. These topics are by far not the only concepts that aim to improve Bitcoin's scalability. 
+		To our knowledge, however, they are the most advanced ones which have played a dominant role in the scaling debate.</p>
       </div>
     </section>
     <section class="u-clearfix u-section-3" id="sec-76f6">
